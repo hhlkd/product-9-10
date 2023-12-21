@@ -27,10 +27,11 @@
     background: #4dd9f2;
     border-radius: 10px;
 }
-header.scrolled{
-    background: rgba(55, 202, 255, 0.77);
+header.sticky{
+    background: #4dd9f2;
     box-shadow: 0px 0px 20px rgba(0 0 0 /100%);
 }
+
 .home{
     width: 100%;
     height: 100vh;
@@ -115,7 +116,7 @@ header.scrolled{
     padding: 10px 20px;
     margin-right: 20px;
 }
-.basket{
+.cartbtn{
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -139,6 +140,8 @@ header.scrolled{
     border: 2px solid snow;
     padding: 10px;
     margin: 0px 10px;
+    cursor: pointer;
+    color: #1da1f2;
 }
 .home-content{
     width: 100%;
@@ -230,7 +233,7 @@ header.scrolled{
     transition: 0.5s;
 }
 .about-img:hover img{
-    transform: scale(0.5);
+    transform: scale(1.1);
 }
 .about-content{
     width: 500px;
@@ -313,7 +316,7 @@ header.scrolled{
 }
 .product{
     width: 90%;
-    height: 227vh;
+    height: 230vh;
     padding-top: 100px;
     margin: 0 auto;
     overflow: hidden;
@@ -380,7 +383,6 @@ header.scrolled{
     gap: 20px 10px;    
     padding: 10px;
 }
-
 .item{
     width: 100%;
     height: 480px;
@@ -421,9 +423,7 @@ header.scrolled{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-
 }
-
 .item .footer button{
     width: 150px;
     height: 50px;
@@ -436,7 +436,6 @@ header.scrolled{
     border: none;
     padding: 10px 20px;
 }
-
 .item .footer button:hover{
     background: rgb(255, 255, 255);
     color: #4dd9f2;
@@ -447,7 +446,6 @@ header.scrolled{
     cursor: pointer;
     padding: 10px;
 }
-
 .item .footer .bi-star:hover{
     color: rgb(255, 255, 255);
     font-size: 20px;
@@ -458,4 +456,21 @@ header.scrolled{
     border-radius: 5px;
     border: none;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  /* Add styles for the moon and sun icons */
+  .bi-moon-fill {
+    color: #fff;
+  }
+  .bi-sun-fill {
+    color: #fbb103; /* or any color you prefer for the sun icon */
+  }
+
+.services{
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
 }
